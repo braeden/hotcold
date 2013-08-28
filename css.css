@@ -1,0 +1,28 @@
+.start p { 	
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	font-size: 3em;
+	color: Blue;
+}
+.start p:hover{ 	
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	font-size: 3em;
+	color: red;
+}
+input {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	vertical-align: middle;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 400px;
+	}

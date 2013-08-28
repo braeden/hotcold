@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hot or Cold</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+function startGame()
+{
+var count=0
+var num=Math.floor((Math.random()*50)+1);
+alert("Ready to Start?");
+	do
+	{
+
+var start=prompt("Guess a number Between 1-50","Type Here");
+
+if (start==num)
+	{
+	alert("You Won It Took You " + count + " Guesses");
+	}
+if (start>num)
+	{
+	alert("Guess Lower");
+	count=count+1;
+	} 
+else 
+	{
+	alert("Guess Higher");
+	count=count+1;
+	}
+	
+	}
+
+	while (num!=start)
+	
+
+window.confirm("Play Again?");
+
+}
+
+</script>
+
+<link type="text/css" rel="stylesheet" href="css.css"/>
+</head>
+<header>
+</header>
+<body>
+<div class=start>
+<p>Guessing Game</p>
+</div>
+
+<input type="button" onclick="startGame()" value="Start Game">
+</body>
+<footer>
+</footer>
+</html>
